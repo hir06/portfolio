@@ -1,0 +1,44 @@
+<div class="container py-3">
+  <div class="card">
+    <div class="row ">
+      <div class="col-md-4">
+        <img src="../assets/images/hiral.jpg" class="w-100 m-3">
+      </div>
+      <div class="col-md-8 px-3">
+        <div class="card-block p-3">
+          <div class="card-title col-md-12">
+            <h5 class="text-center">{{user.name}} - {{user.designation}}</h5>
+            <hr />
+          </div>
+     
+   
+
+        <div class="row col-md-12 socialLinks">
+          <div class="col-md-2 col-sm-2" title="Facebook" *ngIf="socialProfiles.facebook">
+            <a [href]="socialProfiles.facebook" target="_blank"><span class="fa fa-3x fa-facebook-square"></span></a>
+          </div>
+          <div class="col-md-2 col-sm-2" title="Google Plus" *ngIf="socialProfiles.googlePlus">
+            <a [href]="socialProfiles.googlePlus" target="_blank"><span class="fa fa-3x fa-google-plus-square"></span></a>
+          </div>
+          <div class="col-md-2" title="Twitter" *ngIf="socialProfiles.twitter">
+            <a [href]="socialProfiles.twitter" target="_blank"><span class="fa fa-3x fa-twitter-square"></span></a>
+          </div>
+          <div class="col-md-2" title="Github" *ngIf="socialProfiles.github">
+            <a [href]="socialProfiles.github" target="_blank"><span class="fa fa-3x fa-github-square"></span></a>
+          </div>
+          <div class="col-md-2" title="LinkedIn" *ngIf="socialProfiles.linkedin">
+            <a [href]="socialProfiles.linkedin" target="_blank"><span class="fa fa-3x fa-linkedin-square"></span></a>
+          </div>
+          <div class="col-md-2" title="Stack" *ngIf="socialProfiles.stackOverFlow">
+            <a [href]="socialProfiles.linkedin" target="_blank"><span class="fa fa-3x fa-stack-overflow"></span></a>
+          </div>
+          <div class="col-md-2" title="Blogger" *ngIf="socialProfiles.blogger">
+            <a [href]="socialProfiles.blogger" target="_blank"><span class="fa fa-3x fa-rss-square"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
