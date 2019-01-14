@@ -5,6 +5,12 @@
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins/breakpoints";
 @import "var";
-// .card {
-//     margin-top: 0;
-// }
+
+
+.card {
+    background-color: $theme-color !important;
+    color: white;
+    a {
+        color: white;
+    }
+}

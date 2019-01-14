@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.scss']
 })
 export class EducationComponent implements OnInit {
-   education= [
+   education = [
     {
         "qualification": "B.Tech",
         "stream": "Computer Science",
@@ -28,7 +28,7 @@ export class EducationComponent implements OnInit {
         "marks": 88.78,
         "institute": "S.S Ajmera Vidhyalaya"
     }
-],
+]
   constructor() { }
 
   ngOnInit() {

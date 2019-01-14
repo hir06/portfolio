@@ -20,8 +20,22 @@ interests = [
 ]
 user = {
   name: "Hiral Parmar",
-  designation: "UI Developer"
+  designation: "UI Developer",
+  contactDetails: {
+    contactNumber: "+91-7022048293",
+    alternateNumber: "+91-7019715145",
+    email: "phiral246@gmail.com",
+    alertnateEmail: "",
+    address: {
+        "street": "#301, Tirupati Apartments",
+        "society": "Near Lifeline corner, Manekpara",
+        "city": "Amreli",
+        "pin": "365601",
+        "state": "Gujarat"
+    }
 }
+}
+
   constructor() { }
 
   ngOnInit() {
