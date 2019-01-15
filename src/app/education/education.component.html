@@ -1,4 +1,4 @@
-<div class="container py-3">
+<!-- <div class="container py-3">
     <div class="card">
   
       <div class="row col-md-12 py-3">
@@ -22,5 +22,41 @@
         </div>
   
   
-    </div>
+    </div> -->
+
+    <div class="container py-3">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card-block p-3">
+                <div class="card-title col-md-12">
+                  <div class="text-center">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <span class="fa fa-2x fa-graduation-cap"></span>
+                            <h3 class="title ml-2">Education</h3></div>
+                          </div>
+                      </div>
+                     
+                </div>
+                <hr />
+      
+                <div id="edu" *ngFor="let edu of education">
+                  <div class="card bg-light mb-3">
+                    <div class="card-header">{{edu.qualification}} </div>
+                    <div class="card-body">
+                        <span ng-if="education.stream">{{edu.stream}}</span><span> @{{edu.institute}}</span>
+                        <div><span>Passed: {{edu.passingYear}}</span></div>
+                        <div><span>Marks: {{edu.marks}} %</span></div>
+                    </div>
+                 
+      
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
   

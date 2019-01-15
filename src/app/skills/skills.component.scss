@@ -1,1 +1,14 @@
 @import "../../var";
+
+#progress {
+ .card-header {
+     color: black;
+ } 
+ .card-body {
+     color: black;
+ }
+ .progress-bar {
+     background-color: $secondary-color !important;
+ }
+
+}
