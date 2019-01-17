@@ -11,24 +11,6 @@
               <li *ngFor="let item of navLinks" class="nav-item" (click)="updateActiveHeader(item)">
                   <a class="nav-link" routerLink="{{item.link}}" [ngClass]="{'active': isActive === item.name}">{{item.name}}</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" routerLink="skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" routerLink="work">Works</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" routerLink="edu">Education</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" routerLink="accolades">Accolades</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" routerLink="cover">Cover Letter</a>
-              </li> -->
             </ul>
 
           </div>
