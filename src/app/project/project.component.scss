@@ -1,0 +1,22 @@
+@import "../../var";
+.card {
+    .card-header {
+        background-color: $theme-color;
+        color: white;
+    }
+    hr {
+        color: black;
+    }
+    a {
+        color: black;
+        text-decoration: underline;
+    }
+    .name {
+        font-weight: 600;
+        text-decoration: underline
+    }
+    color: black;
+}
+.row {
+    margin-bottom: 1rem;
+}
